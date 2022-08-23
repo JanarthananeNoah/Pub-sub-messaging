@@ -19,7 +19,7 @@ public class SpringActiveMQConfig {
 
 	@Bean
 	public Queue queue() {
-		return new ActiveMQQueue("pusub-queue");
+		return new ActiveMQQueue("pubsub-queue");
 	}
 
 	@Bean
